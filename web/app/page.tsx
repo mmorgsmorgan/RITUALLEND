@@ -161,21 +161,9 @@ function Footer() {
     <footer className="l-wrapper pt-16 lg:pt-24 pb-10">
       <div className="hairline mb-6" />
       <div className="l-grid">
-        <div className="col-span-2 lg:col-span-3">
+        <div className="col-span-4 lg:col-span-12">
           <span className="font-serif text-base" style={{ letterSpacing: '0.08em' }}>RITUALLEND</span>
           <p className="text-xs muted mt-1">credit-tiered RITUAL market</p>
-        </div>
-        <div className="col-span-2 lg:col-span-3">
-          <p className="text-xs faint uppercase mb-2" style={{ letterSpacing: '0.08em' }}>Chain</p>
-          <p className="text-sm">Ritual · 1979</p>
-        </div>
-        <div className="col-span-2 lg:col-span-3 mt-6 lg:mt-0">
-          <p className="text-xs faint uppercase mb-2" style={{ letterSpacing: '0.08em' }}>Built with</p>
-          <p className="text-sm muted">Foundry · Next · viem</p>
-        </div>
-        <div className="col-span-2 lg:col-span-3 mt-6 lg:mt-0">
-          <p className="text-xs faint uppercase mb-2" style={{ letterSpacing: '0.08em' }}>License</p>
-          <p className="text-sm muted">MIT</p>
         </div>
       </div>
       <div className="hairline mt-10 mb-4" />
