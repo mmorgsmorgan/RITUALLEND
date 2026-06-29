@@ -1,0 +1,24 @@
+# env
+.env
+.env.local
+.env.*.local
+
+# foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/coverage/
+contracts/.gas-snapshot
+contracts/lib/
+
+# node / next
+web/node_modules/
+web/.next/
+web/out/
+web/.turbo/
+web/tsconfig.tsbuildinfo
+web/next-env.d.ts
+
+# misc
+*.log
+.DS_Store
